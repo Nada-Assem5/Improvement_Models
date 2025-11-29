@@ -29,7 +29,7 @@ def evaluate_model(model, X_test, y_test, name):
 
 def train_memory_model(model_class, df, target_col, save_name):
 
-    print(f"\n🚀  {save_name}...")
+    print(f"\n  {save_name}...")
 
     X = df.drop(columns=[target_col])
     y = df[target_col]
